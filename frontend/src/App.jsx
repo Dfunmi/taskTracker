@@ -7,7 +7,7 @@ export default function App() {
 
   useEffect(() => {
     async function getTodos() {
-      const res = await fetch("/api/todos");
+      const res = await fetch"https://tasktracker-backend-i8cd.onrender.com";
       const todos = await res.json();
 
       setTodos(todos);
